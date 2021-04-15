@@ -1,6 +1,6 @@
 # Calculadora Decimal e Binária
 
-![screenshot]()
+![screenshot](https://github.com/MicaelRiboura/binary-decimal-calculators/blob/master/screenshots/calculator-screenshot.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
 
