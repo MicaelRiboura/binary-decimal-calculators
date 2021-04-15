@@ -1,0 +1,20 @@
+.history {
+    margin-top: 20px;
+    background-color: #000;
+    border-radius: 20px;
+    width: 40vw;
+    padding: 10px;
+    color: #fff;
+    overflow-y: auto;
+    font-size: 1.3rem;
+    height: 300px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+@media(max-width: 768px){
+   .history{
+        width: 80vw;
+   }
+}

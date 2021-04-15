@@ -1,0 +1,50 @@
+.footer-author {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    padding: 16px;
+    background-color: #242731 ;
+    /* margin-top: 1.2rem; */
+}
+
+.footer-author a{
+    text-decoration: none;
+}
+
+@media(min-width: 768px) {
+    .footer-author {
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.footer-author .author-info {
+    padding: 20px;
+    color: #fff;
+
+}
+
+.btn-github {
+    display: flex;
+    align-items: center;
+}
+.btn-github svg{
+    margin-right: 8px;
+}
+
+.footer-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.hidden-footer {
+    display: none;
+}

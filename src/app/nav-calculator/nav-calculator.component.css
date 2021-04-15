@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    margin: 40px 0;
+    flex-wrap: wrap;
+}
+
+.calc-nav-item {
+    width: 33.33333333333333%;
+    padding: 5px 16px;
+}
+
+.calc-nav-button {
+    outline: none;
+    border: none;
+    background-color: #40464F;
+    color: #fff;
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 16px;
+    width: 100%;
+    font-size: 1.2rem;
+    transition: .3s ease;
+}
+
+.active, .calc-nav-button:hover {
+    background-color: #6C5DD3;
+    color: #fff;
+}
+
+@media(max-width: 768px){
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        list-style: none;
+        margin: 40px 0;
+        flex-wrap: wrap;
+    }
+
+    .calc-nav-item {
+        width: 100%;
+        padding: 10px 16px;
+    }
+}
